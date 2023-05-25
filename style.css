@@ -1,0 +1,195 @@
+/* input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+} */
+.calc-main{
+    margin-top: 110px;
+}
+.calc-main-light{
+    background-color: #E6E6E6;
+}
+.calc-main-purple{
+    background-color: #17062A;
+}
+.calc-main-dark{
+    background-color: #3B4664;
+}
+.heading-light{
+    color: black;
+}
+.heading-purple{
+    color: #F4DC63;
+}
+.heading-dark{
+    color: white;
+}
+.check-box{
+    margin: 15px 40px;
+}
+.theme-txt{
+    font-size: 10px;
+    padding: 10px;
+}
+.theme-one,.theme-two,.theme-three{
+    padding: 0 4px;
+    font-size: 12px;
+}
+#myRange{
+    cursor: pointer;
+    width: 40px;
+}
+.buttons-all-light{
+    background-color: #D3CDCD;
+    border-radius: 5px;
+    padding: 10px 20px 10px 0;
+    margin: 25px;
+    border: none;
+}
+.buttons-all-purple{
+    background-color: #1E0836;
+    border-radius: 5px;
+    padding: 10px 20px 10px 0;
+    margin: 25px;
+    border: none;
+}
+.buttons-all-dark{
+    background-color:#252D44;
+    border-radius: 5px;
+    padding: 10px 20px 10px 0;
+    margin: 25px;
+    border: none;
+}
+.button-item-light,.button-item-dark{
+    margin: 4px;
+    padding: 6px 14px;
+    background-color: #E6E4E0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    /* box-shadow: 5px 15px 15px #b1aca2; */
+}
+.button-item-purple{
+    margin: 4px;
+    padding: 6px 14px;
+    background-color: #352055;
+    color: #F4DC63;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wrapper-btn{
+    padding: 6px 16px;
+}
+.del-button-dark{
+    padding: 7px 7px;
+    color: #DDF7FE;
+    background-color: #647299;
+}
+.del-button-light{
+    padding: 7px 7px;
+    color: #DDF7FE;
+    background-color: #388186;
+}
+.del-button-purple{
+    padding: 7px 7px;
+    color: #DDF7FE;
+    background-color: #55087A;
+}
+.rst-button-light{
+    background-color: #388186;
+    color: #DDF7FE;
+    border-radius: 3px;
+    padding: 8px 20px;
+}
+.rst-button-dark{
+    background-color: #647299;
+    color: #DDF7FE;
+    border-radius: 3px;
+    padding: 8px 20px;
+}
+.rst-button-purple{
+    background-color: #55087A;
+    color: #DDF7FE;
+    border-radius: 3px;
+    padding: 8px 20px;
+}
+.eql-button-light{
+    background-color: #C85401;
+    color: #DDF7FE;
+    border-radius: 3px;
+    padding: 8px 37px;
+}
+.eql-button-dark{
+    background-color: #D13F30;
+    color: #DDF7FE;
+    border-radius: 3px;
+    padding: 8px 37px;
+}
+.eql-button-purple{
+    background-color: #00DECF;
+    color: black;
+    border-radius: 3px;
+    padding: 8px 37px;
+}
+.input-content-light{
+    width: 100%;
+    margin-left: 0;
+    border-radius: 5px;
+    border: none;
+    text-align: right;
+    color: black;
+    background-color: white;
+   
+}
+.input-content-dark{
+    width: 100%;
+    margin-left: 0;
+    border-radius: 5px;
+    border: none;
+    text-align: right;
+    color: white;
+    background-color: #181F32;
+   
+}
+.input-content-purple{
+    width: 100%;
+    margin-left: 0;
+    border-radius: 5px;
+    border: none;
+    text-align: right;
+    color: #FCE03C;
+    background-color: #1E0836;
+   
+}
+.input-field-light{
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.input-field-dark{
+    height: 40px;
+    color: white;
+    background-color: #181F32;
+    border-radius: 5px;
+
+}
+.input-field-purple{
+    height: 40px;
+    color: #FCE03C;
+    background-color: #1E0836;
+    border-radius: 5px;
+
+}
+p{
+    /* width: 100%; */
+    height: 20px;
+    text-align: end;
+    margin-bottom: 0px !important;
+    display: block;
+}
